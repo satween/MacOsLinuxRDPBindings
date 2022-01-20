@@ -72,6 +72,58 @@
             </transform>
             <!-- / Keyboard transformations for MacOs -> Linux RDP -->
             <transform>
+                <from command="1" key="F1"/>
+                <to control="1" key="F1"/>
+            </transform>
+            <transform>
+                <from command="1" key="F2"/>
+                <to control="1" key="F2"/>
+            </transform>
+            <transform>
+                <from command="1" key="F3"/>
+                <to control="1" key="F3"/>
+            </transform>
+            <transform>
+                <from command="1" key="F4"/>
+                <to control="1" key="F4"/>
+            </transform>
+            <transform>
+                <from command="1" key="F5"/>
+                <to control="1" key="F5"/>
+            </transform>
+            <transform>
+                <from command="1" key="F6"/>
+                <to control="1" key="F6"/>
+            </transform>
+            <transform>
+                <from command="1" key="F7"/>
+                <to control="1" key="F7"/>
+            </transform>
+            <transform>
+                <from command="1" key="F8"/>
+                <to control="1" key="F8"/>
+            </transform>
+            <transform>
+                <from command="1" key="F9"/>
+                <to control="1" key="F9"/>
+            </transform>
+            <transform>
+                <from command="1" key="F10"/>
+                <to control="1" key="F10"/>
+            </transform>
+            <transform>
+                <from command="1" key="F11"/>
+                <to control="1" key="F11"/>
+            </transform>
+            <transform>
+                <from command="1" key="F12"/>
+                <to control="1" key="F12"/>
+            </transform>
+            <transform>
+                <from command="1" key="Space"/>
+                <to control="1" key="Space"/>
+            </transform>
+            <transform>
                 <from command="1" key="Q"/>
                 <to control="1" key="Q"/>
             </transform>
@@ -174,6 +226,74 @@
             <transform>
                 <from command="1" key="M"/>
                 <to control="1" key="M"/>
+            </transform>
+            <transform>
+                <from command="1" key="LeftArrow" />
+                <to control="1" key="LeftArrow"/>
+            </transform>
+            <transform>
+                <from command="1" key="RightArrow" />
+                <to control="1" key="RightArrow"/>
+            </transform>
+            <transform>
+                <from command="1" key="UpArrow" />
+                <to control="1" key="UpArrow"/>
+            </transform>
+            <transform>
+                <from command="1" key="DownArrow" />
+                <to control="1" key="DownArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F1"/>
+                <to control="1" option="1" key="F1"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F2"/>
+                <to control="1" option="1" key="F2"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F3"/>
+                <to control="1" option="1" key="F3"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F4"/>
+                <to control="1" option="1" key="F4"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F5"/>
+                <to control="1" option="1" key="F5"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F6"/>
+                <to control="1" option="1" key="F6"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F7"/>
+                <to control="1" option="1" key="F7"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F8"/>
+                <to control="1" option="1" key="F8"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F9"/>
+                <to control="1" option="1" key="F9"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F10"/>
+                <to control="1" option="1" key="F10"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F11"/>
+                <to control="1" option="1" key="F11"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F12"/>
+                <to control="1" option="1" key="F12"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="Space"/>
+                <to control="1" option="1" key="Space"/>
             </transform>
             <transform>
                 <from command="1" option="1" key="Q"/>
@@ -280,6 +400,74 @@
                 <to control="1" option="1" key="M"/>
             </transform>
             <transform>
+                <from command="1" option="1" key="LeftArrow" />
+                <to control="1" option="1" key="LeftArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="RightArrow" />
+                <to control="1" option="1" key="RightArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="UpArrow" />
+                <to control="1" option="1" key="UpArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="DownArrow" />
+                <to control="1" option="1" key="DownArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F1"/>
+                <to control="1" option="1" shift="1" key="F1"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F2"/>
+                <to control="1" option="1" shift="1" key="F2"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F3"/>
+                <to control="1" option="1" shift="1" key="F3"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F4"/>
+                <to control="1" option="1" shift="1" key="F4"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F5"/>
+                <to control="1" option="1" shift="1" key="F5"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F6"/>
+                <to control="1" option="1" shift="1" key="F6"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F7"/>
+                <to control="1" option="1" shift="1" key="F7"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F8"/>
+                <to control="1" option="1" shift="1" key="F8"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F9"/>
+                <to control="1" option="1" shift="1" key="F9"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F10"/>
+                <to control="1" option="1" shift="1" key="F10"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F11"/>
+                <to control="1" option="1" shift="1" key="F11"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F12"/>
+                <to control="1" option="1" shift="1" key="F12"/>
+            </transform>
+                 <transform>
+                <from command="1" option="1" shift="1" key="Space"/>
+                <to control="1" option="1" shift="1" key="Space"/>
+            </transform>
+            <transform>
                 <from command="1" option="1" shift="1" key="Q"/>
                 <to control="1" option="1" shift="1" key="Q"/>
             </transform>
@@ -384,16 +572,20 @@
                 <to control="1" option="1" shift="1" key="M"/>
             </transform>
             <transform>
-                <from command="1" option="1" key="Left"/>
-                <to control="1" option="1" key="Left"/>
+                <from command="1" option="1" shift="1" key="LeftArrow" />
+                <to control="1" option="1" shift="1" key="LeftArrow"/>
             </transform>
             <transform>
-                <from command="1" option="1" key="LeftArrow" />
-                <to control="1" option="1" key="LeftArrow"/>
+                <from command="1" option="1" shift="1" key="RightArrow" />
+                <to control="1" option="1" shift="1" key="RightArrow"/>
             </transform>
             <transform>
-                <from command="1" option="1" key="RightArrow" />
-                <to control="1" option="1" key="RightArrow"/>
+                <from command="1" option="1" shift="1" key="UpArrow" />
+                <to control="1" option="1" shift="1" key="UpArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="DownArrow" />
+                <to control="1" option="1" shift="1" key="DownArrow"/>
             </transform>
             <!-- / Keyboard transformations for MacOs -> Linux RDP -->
         </transformations>
