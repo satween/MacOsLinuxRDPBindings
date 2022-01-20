@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- transformation for clipboard actions (cut copy paste) -->
+<!-- layout specific -->
+<layouts>
+    <!-- Dvorak X C V are not on same physical position as on US keyboard. -->
+    <layout name="com.apple.keylayout.Dvorak">
+        <transformations>
+            <!-- Command+X to Control+X -->
+            <transform>
+                <from command="1" key="B" />
+                <to control="1" key="B" />
+            </transform>
+            <!-- Command+C to Control+C -->
+            <transform>
+                <from command="1" key="I" />
+                <to control="1" key="I" />
+            </transform>
+            <!-- Command+V to Control+V -->
+            <transform>
+                <from command="1" key="Period" />
+                <to control="1" key="Period" />
+            </transform>
+            <!-- Command+A to Control+A, the A in dvorak is in the same position as in qwerty -->
+            <transform>
+                <from command="1" key="A" />
+                <to control="1" key="A" />
+            </transform>
+            <!-- Command+Z to Control+Z -->
+            <transform>
+                <from command="1" key="Slash" />
+                <to control="1" key="Slash" />
+            </transform>
+            <!-- Command+F to Control+F -->
+            <transform>
+                <from command="1" key="Y" />
+                <to control="1" key="Y" />
+            </transform>
+        </transformations>
+    </layout>
+    <!-- the default is US keyboard physical position for X C V -->
+    <layout name="default">
+        <transformations>
+            <!-- Command+X to Control+X -->
+            <transform>
+                <from command="1" key="X" />
+                <to control="1" key="X" />
+            </transform>
+            <!-- Command+C to Control+C -->
+            <transform>
+                <from command="1" key="C" />
+                <to control="1" key="C" />
+            </transform>
+            <!-- Command+V to Control+V -->
+            <transform>
+                <from command="1" key="V" />
+                <to control="1" key="V" />
+            </transform>
+            <!-- Command+A to Control+A -->
+            <transform>
+                <from command="1" key="A" />
+                <to control="1" key="A" />
+            </transform>
+            <!-- Command+Z to Control+Z -->
+            <transform>
+                <from command="1" key="Z" />
+                <to control="1" key="Z" />
+            </transform>
+            <!-- Command+F to Control+F -->
+            <transform>
+                <from command="1" key="F" />
+                <to control="1" key="F" />
+            </transform>
+            <!-- / Keyboard transformations for MacOs -> Linux RDP -->
+            <transform>
+                <from command="1" key="Q"/>
+                <to control="1" key="Q"/>
+            </transform>
+            <transform>
+                <from command="1" key="W"/>
+                <to control="1" key="W"/>
+            </transform>
+            <transform>
+                <from command="1" key="E"/>
+                <to control="1" key="E"/>
+            </transform>
+            <transform>
+                <from command="1" key="R"/>
+                <to control="1" key="R"/>
+            </transform>
+            <transform>
+                <from command="1" key="T"/>
+                <to control="1" key="T"/>
+            </transform>
+            <transform>
+                <from command="1" key="Y"/>
+                <to control="1" key="Y"/>
+            </transform>
+            <transform>
+                <from command="1" key="U"/>
+                <to control="1" key="U"/>
+            </transform>
+            <transform>
+                <from command="1" key="I"/>
+                <to control="1" key="I"/>
+            </transform>
+            <transform>
+                <from command="1" key="O"/>
+                <to control="1" key="O"/>
+            </transform>
+            <transform>
+                <from command="1" key="P"/>
+                <to control="1" key="P"/>
+            </transform>
+            <transform>
+                <from command="1" key="A"/>
+                <to control="1" key="A"/>
+            </transform>
+            <transform>
+                <from command="1" key="S"/>
+                <to control="1" key="S"/>
+            </transform>
+            <transform>
+                <from command="1" key="D"/>
+                <to control="1" key="D"/>
+            </transform>
+            <transform>
+                <from command="1" key="F"/>
+                <to control="1" key="F"/>
+            </transform>
+            <transform>
+                <from command="1" key="G"/>
+                <to control="1" key="G"/>
+            </transform>
+            <transform>
+                <from command="1" key="H"/>
+                <to control="1" key="H"/>
+            </transform>
+            <transform>
+                <from command="1" key="J"/>
+                <to control="1" key="J"/>
+            </transform>
+            <transform>
+                <from command="1" key="K"/>
+                <to control="1" key="K"/>
+            </transform>
+            <transform>
+                <from command="1" key="L"/>
+                <to control="1" key="L"/>
+            </transform>
+            <transform>
+                <from command="1" key="Z"/>
+                <to control="1" key="Z"/>
+            </transform>
+            <transform>
+                <from command="1" key="X"/>
+                <to control="1" key="X"/>
+            </transform>
+            <transform>
+                <from command="1" key="C"/>
+                <to control="1" key="C"/>
+            </transform>
+            <transform>
+                <from command="1" key="V"/>
+                <to control="1" key="V"/>
+            </transform>
+            <transform>
+                <from command="1" key="B"/>
+                <to control="1" key="B"/>
+            </transform>
+            <transform>
+                <from command="1" key="N"/>
+                <to control="1" key="N"/>
+            </transform>
+            <transform>
+                <from command="1" key="M"/>
+                <to control="1" key="M"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="Q"/>
+                <to control="1" option="1" key="Q"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="W"/>
+                <to control="1" option="1" key="W"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="E"/>
+                <to control="1" option="1" key="E"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="R"/>
+                <to control="1" option="1" key="R"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="T"/>
+                <to control="1" option="1" key="T"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="Y"/>
+                <to control="1" option="1" key="Y"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="U"/>
+                <to control="1" option="1" key="U"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="I"/>
+                <to control="1" option="1" key="I"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="O"/>
+                <to control="1" option="1" key="O"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="P"/>
+                <to control="1" option="1" key="P"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="A"/>
+                <to control="1" option="1" key="A"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="S"/>
+                <to control="1" option="1" key="S"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="D"/>
+                <to control="1" option="1" key="D"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="F"/>
+                <to control="1" option="1" key="F"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="G"/>
+                <to control="1" option="1" key="G"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="H"/>
+                <to control="1" option="1" key="H"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="J"/>
+                <to control="1" option="1" key="J"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="K"/>
+                <to control="1" option="1" key="K"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="L"/>
+                <to control="1" option="1" key="L"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="Z"/>
+                <to control="1" option="1" key="Z"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="X"/>
+                <to control="1" option="1" key="X"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="C"/>
+                <to control="1" option="1" key="C"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="V"/>
+                <to control="1" option="1" key="V"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="B"/>
+                <to control="1" option="1" key="B"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="N"/>
+                <to control="1" option="1" key="N"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="M"/>
+                <to control="1" option="1" key="M"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="Q"/>
+                <to control="1" option="1" shift="1" key="Q"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="W"/>
+                <to control="1" option="1" shift="1" key="W"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="E"/>
+                <to control="1" option="1" shift="1" key="E"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="R"/>
+                <to control="1" option="1" shift="1" key="R"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="T"/>
+                <to control="1" option="1" shift="1" key="T"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="Y"/>
+                <to control="1" option="1" shift="1" key="Y"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="U"/>
+                <to control="1" option="1" shift="1" key="U"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="I"/>
+                <to control="1" option="1" shift="1" key="I"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="O"/>
+                <to control="1" option="1" shift="1" key="O"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="P"/>
+                <to control="1" option="1" shift="1" key="P"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="A"/>
+                <to control="1" option="1" shift="1" key="A"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="S"/>
+                <to control="1" option="1" shift="1" key="S"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="D"/>
+                <to control="1" option="1" shift="1" key="D"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="F"/>
+                <to control="1" option="1" shift="1" key="F"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="G"/>
+                <to control="1" option="1" shift="1" key="G"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="H"/>
+                <to control="1" option="1" shift="1" key="H"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="J"/>
+                <to control="1" option="1" shift="1" key="J"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="K"/>
+                <to control="1" option="1" shift="1" key="K"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="L"/>
+                <to control="1" option="1" shift="1" key="L"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="Z"/>
+                <to control="1" option="1" shift="1" key="Z"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="X"/>
+                <to control="1" option="1" shift="1" key="X"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="C"/>
+                <to control="1" option="1" shift="1" key="C"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="V"/>
+                <to control="1" option="1" shift="1" key="V"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="B"/>
+                <to control="1" option="1" shift="1" key="B"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="N"/>
+                <to control="1" option="1" shift="1" key="N"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" shift="1" key="M"/>
+                <to control="1" option="1" shift="1" key="M"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="Left"/>
+                <to control="1" option="1" key="Left"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="LeftArrow" />
+                <to control="1" option="1" key="LeftArrow"/>
+            </transform>
+            <transform>
+                <from command="1" option="1" key="RightArrow" />
+                <to control="1" option="1" key="RightArrow"/>
+            </transform>
+            <!-- / Keyboard transformations for MacOs -> Linux RDP -->
+        </transformations>
+    </layout>
+</layouts>
