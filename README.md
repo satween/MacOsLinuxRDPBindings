@@ -2,7 +2,7 @@
 
 ## What this repository for?
 
-When connecting to Linux from MaxOs Microsoft Remote Desktop transforms CMD key to Windows key.
+When connecting to Linux from MacOs Microsoft Remote Desktop transforms CMD key to Windows key.
 This is not usefull, when you want to have remote Intelliji IDEA with standart bindings.
 This file helps transform CMD key to Cntrl so you haven't change default key layout in IDE or change modifier keys in mac preferences
 
