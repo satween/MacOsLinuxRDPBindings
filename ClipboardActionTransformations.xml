@@ -72,6 +72,18 @@
             </transform>
             <!-- / Keyboard transformations for MacOs -> Linux RDP -->
             <transform>
+                <from command="1" option="1"/>
+                <to control="1" option="1"/>
+            </transform>
+            <transform>
+                <from command="1" shift="1"/>
+                <to control="1" shift="1"/>
+            </transform>
+                 <transform>
+                <from command="1"/>
+                <to control="1"/>
+            </transform>
+            <transform>
                 <from command="1" key="Slash"/>
                 <to control="1" key="Slash"/>
             </transform>
